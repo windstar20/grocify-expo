@@ -5,7 +5,7 @@ import { Image } from "expo-image";
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text>안녕하세요. </Text>
+      <Text className="text-red-400">안녕하세요. </Text>
       <Link href={"/about"}>About screen link</Link>
       <Link href={"/contact"}>contact screen link</Link>
       <Image
