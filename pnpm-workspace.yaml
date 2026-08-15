@@ -2,6 +2,7 @@ allowBuilds:
   browser-tabs-lock: true
   bufferutil: true
   core-js: true
+  esbuild: true
   unrs-resolver: set this to true or false
   utf-8-validate: true
 minimumReleaseAgeExclude:
