@@ -1,8 +1,10 @@
   import { useAuth } from "@clerk/expo";
   import { Pressable, StyleSheet, Text, View } from "react-native";
+import { useGroceryStore } from "../store/grocery-store";
 
  export default function HomeScreen() {
-    const { signOut } = useAuth();
+   const { signOut } = useAuth();
+
 
     return (
       <View style={styles.container}>
